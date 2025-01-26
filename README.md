@@ -1,4 +1,10 @@
-This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](https://github.com/cskeeters/ptp) that enables acronyms.
+This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](https://github.com/cskeeters/ptp) that enables acronyms. It
+1. Expands the acronym on first use like this: Local Area Network (LAN).
+2. Allows "+LANs" to be plurl and stil work.
+3. Maintains a list of acronyms used so that "\printacronyms" will output
+   only the acronyms used in the document.
+
+
 
 ```markdown
 ---
