@@ -10,7 +10,6 @@ This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](http
 ---
 title: Acronym Demo
 author: Chad Skeeters
-template: school-paper-local.typ
 acronyms:
   LAN: Local Area Network
   WAN: Wide Area Network
