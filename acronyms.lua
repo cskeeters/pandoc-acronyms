@@ -5,11 +5,16 @@ This filter facilitates the use of acronyms in markdown.  It
 3. Maintains a list of acronyms used so that "\printacronyms" will output
    only the acronyms used in the document.
 
-acronyms:
-  LAN: Local Area Network
-  WAN: Wide Area Network
+Example:
 
-Is this plugged into the +LAN or +WAN port of the firewall?
+    ---
+    title: Network Troubleshooting
+    acronyms:
+        LAN: Local Area Network
+        WAN: Wide Area Network
+    ---
+    Is this plugged into the +LAN or +WAN port of the firewall?
+
 ]]
 
 local logging = require 'logging'
