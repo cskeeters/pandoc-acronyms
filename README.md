@@ -4,8 +4,6 @@ This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](http
 3. Maintains a list of acronyms used so that "\printacronyms" will output
    only the acronyms used in the document.
 
-
-
 ```markdown
 ---
 title: Acronym Demo
